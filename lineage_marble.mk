@@ -24,7 +24,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_DISABLE_EPPE := true
 TARGET_ENABLE_BLUR := true
-BYPASS_CHARGE_SUPPORTED := true
+TARGET_INCLUDE_VIPERFX := true
 
 # Maintainer name (use "_" for spaces, e.g., "rmp_22" → "rmp 22" in UI)
 AXION_MAINTAINER := Ashwani

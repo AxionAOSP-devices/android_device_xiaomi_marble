@@ -19,6 +19,9 @@ $(call inherit-product, vendor/bcr/bcr.mk)
 # Call the MiuiCamera setup
 $(call inherit-product-if-exists, device/xiaomi/miuicamera-marble/device.mk)
 
+# call viperFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Init
 $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):init_xiaomi_marble)
 
